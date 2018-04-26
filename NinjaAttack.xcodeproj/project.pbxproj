@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93406E7220921F44005E5057 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93406E7120921F44005E5057 /* GameOver.swift */; };
 		9389ED7620921E5400196BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389ED7520921E5400196BC9 /* AppDelegate.swift */; };
 		9389ED7820921E5400196BC9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9389ED7720921E5400196BC9 /* GameScene.sks */; };
 		9389ED7A20921E5400196BC9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389ED7920921E5400196BC9 /* GameScene.swift */; };
@@ -14,8 +15,6 @@
 		9389ED7F20921E5400196BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9389ED7D20921E5400196BC9 /* Main.storyboard */; };
 		9389ED8120921E5400196BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9389ED8020921E5400196BC9 /* Assets.xcassets */; };
 		9389ED8420921E5500196BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9389ED8220921E5400196BC9 /* LaunchScreen.storyboard */; };
-		9389ED8F20921E5500196BC9 /* NinjaAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389ED8E20921E5500196BC9 /* NinjaAttackTests.swift */; };
-		9389ED9A20921E5500196BC9 /* NinjaAttackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9389ED9920921E5500196BC9 /* NinjaAttackUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93406E7120921F44005E5057 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		9389ED7220921E5400196BC9 /* NinjaAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9389ED7520921E5400196BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9389ED7720921E5400196BC9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -46,11 +46,7 @@
 		9389ED8320921E5400196BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9389ED8520921E5500196BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9389ED8A20921E5500196BC9 /* NinjaAttackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaAttackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9389ED8E20921E5500196BC9 /* NinjaAttackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaAttackTests.swift; sourceTree = "<group>"; };
-		9389ED9020921E5500196BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9389ED9520921E5500196BC9 /* NinjaAttackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaAttackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9389ED9920921E5500196BC9 /* NinjaAttackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaAttackUITests.swift; sourceTree = "<group>"; };
-		9389ED9B20921E5500196BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				9389ED7420921E5400196BC9 /* NinjaAttack */,
-				9389ED8D20921E5500196BC9 /* NinjaAttackTests */,
-				9389ED9820921E5500196BC9 /* NinjaAttackUITests */,
 				9389ED7320921E5400196BC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +98,7 @@
 				9389ED7520921E5400196BC9 /* AppDelegate.swift */,
 				9389ED7720921E5400196BC9 /* GameScene.sks */,
 				9389ED7920921E5400196BC9 /* GameScene.swift */,
+				93406E7120921F44005E5057 /* GameOver.swift */,
 				9389ED7B20921E5400196BC9 /* GameViewController.swift */,
 				9389ED7D20921E5400196BC9 /* Main.storyboard */,
 				9389ED8020921E5400196BC9 /* Assets.xcassets */,
@@ -111,24 +106,6 @@
 				9389ED8520921E5500196BC9 /* Info.plist */,
 			);
 			path = NinjaAttack;
-			sourceTree = "<group>";
-		};
-		9389ED8D20921E5500196BC9 /* NinjaAttackTests */ = {
-			isa = PBXGroup;
-			children = (
-				9389ED8E20921E5500196BC9 /* NinjaAttackTests.swift */,
-				9389ED9020921E5500196BC9 /* Info.plist */,
-			);
-			path = NinjaAttackTests;
-			sourceTree = "<group>";
-		};
-		9389ED9820921E5500196BC9 /* NinjaAttackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9389ED9920921E5500196BC9 /* NinjaAttackUITests.swift */,
-				9389ED9B20921E5500196BC9 /* Info.plist */,
-			);
-			path = NinjaAttackUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +246,7 @@
 				9389ED7A20921E5400196BC9 /* GameScene.swift in Sources */,
 				9389ED7C20921E5400196BC9 /* GameViewController.swift in Sources */,
 				9389ED7620921E5400196BC9 /* AppDelegate.swift in Sources */,
+				93406E7220921F44005E5057 /* GameOver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9389ED8F20921E5500196BC9 /* NinjaAttackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9389ED9A20921E5500196BC9 /* NinjaAttackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +471,7 @@
 				9389EDA020921E5500196BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9389EDA120921E5500196BC9 /* Build configuration list for PBXNativeTarget "NinjaAttackTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +480,7 @@
 				9389EDA320921E5500196BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9389EDA420921E5500196BC9 /* Build configuration list for PBXNativeTarget "NinjaAttackUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +489,7 @@
 				9389EDA620921E5500196BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

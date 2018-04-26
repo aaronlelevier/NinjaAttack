@@ -1,9 +1,9 @@
 //
 //  GameViewController.swift
-//  NinjaAttack
+//  Sleeping Giant
 //
-//  Created by Aaron Lelevier on 4/26/18.
-//  Copyright (c) 2018 aaronlelevier. All rights reserved.
+//  Created by Aaron Lelevier on 4/25/18.
+//  Copyright (c) 2018 aronysidoro. All rights reserved.
 //
 
 import UIKit
@@ -24,28 +24,13 @@ class GameViewController: UIViewController {
             skView.ignoresSiblingOrder = true
             
             /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
+            scene.scaleMode = .ResizeFill
             
             skView.presentScene(scene)
         }
     }
 
-    override func shouldAutorotate() -> Bool {
-        return true
-    }
 
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return .AllButUpsideDown
-        } else {
-            return .All
-        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
 
     override func prefersStatusBarHidden() -> Bool {
         return true
